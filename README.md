@@ -3,16 +3,18 @@
 Technology Used: Python + Streamlit
 what It does :
 It allows the user to input a phone number then get info on where the number is from( country),service providers in the detected country and Mobile money services.
+## 📄 Documentation
+[Download the Project Documentation](./Phone_Number_Country_Detector_Documentation.pdf)
 
 ---------TO DO SUCH A PROJECT (REQUIREMENTS)---------------
 
 1. Operating System: Windows / Linux / MacOS
 2. Tools / Editors: VS Code (recommended)
-3.  Have python version 3.11+ is installed and added to PATH
+3.  Have python version 3.10+ is installed and added to PATH
 -> to check your python version : 
 * open your terminal 
 * and type: python --version
-* if you don't have a 3.11+  python version or you are having an error saying Python executable is not availabe in your path,you can:
+* if you don't have a 3.10+  python version or you are having an error saying Python executable is not availabe in your path,you can:
 a.  Download and install Python from the official website: https://www.python.org/downloads/
 b.  During installation, ensure you check the box that says "Add Python to PATH"
 c.  After installation, restart your terminal and try running      python --version 
