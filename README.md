@@ -3,6 +3,7 @@
 Technology Used: Python + Streamlit
 what It does :
 It allows the user to input a phone number then get info on where the number is from( country),service providers in the detected country and Mobile money services.
+
 ---------TO DO SUCH A PROJECT (REQUIREMENTS)---------------
 
 1. Operating System: Windows / Linux / MacOS
@@ -23,7 +24,8 @@ streamlit:pip install streamlit
 phonenumbers:pip install phonenumbers pycountry emoji
 6. Optional: Git (for version control and GitHub integration)
 7. Write the code with the Logic and functionalities ( check the app.py file for details code and comments)
----------IF YOU WANT THIS PROJECT RUNNING ON YOUR LOCAL MACHINE-----
+
+---------FOR THE "CLONER"----
 1. Installation & Setup Instructions
 Step 1: Clone the Repository
 git clone <https://github.com/lusamaki/StreamLit_Starter.git>
