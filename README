@@ -1,0 +1,44 @@
+ ----------ABOUT THE PROJECT----------
+ This is a Streamlit Phone Number Country Detector,a Beginner’s Toolkit
+Technology Used: Python + Streamlit
+what It does :
+It allows the user to input a phone number then get info on where the number is from( country),service providers in the detected country and Mobile money services.
+---------TO DO SUCH A PROJECT (REQUIREMENTS)---------------
+
+1. Operating System: Windows / Linux / MacOS
+2. Tools / Editors: VS Code (recommended)
+3.  Have python version 3.11+ is installed and added to PATH
+-> to check your python version : 
+* open your terminal 
+* and type: python --version
+* if you don't have a 3.11+  python version or you are having an error saying Python executable is not availabe in your path,you can:
+a.  Download and install Python from the official website: https://www.python.org/downloads/
+b.  During installation, ensure you check the box that says "Add Python to PATH"
+c.  After installation, restart your terminal and try running      python --version 
+to confirm Python is available.
+4. Then, you can create your virtual environment with:
+   python -m venv venv
+5. Python Packages:
+streamlit:pip install streamlit
+phonenumbers:pip install phonenumbers pycountry emoji
+6. Optional: Git (for version control and GitHub integration)
+7. Write the code with the Logic and functionalities ( check the app.py file for details code and comments)
+---------IF YOU WANT THIS PROJECT RUNNING ON YOUR LOCAL MACHINE-----
+1. Installation & Setup Instructions
+Step 1: Clone the Repository
+git clone <https://github.com/lusamaki/StreamLit_Starter.git>
+cd streamlit-beginner-toolkit (Or the folder in which you want it to be stored)
+Step 2: Create Virtual Environment
+python -m venv venv
+Activate it:
+•	Git Bash / Linux / MacOS: 
+source venv/Scripts/activate  # Windows Git Bash
+•	PowerShell (Windows): 
+venv\Scripts\activate
+Step 3: Install Dependencies
+pip install -r requirements.txt
+(requirements.txt contains: streamlit and phonenumbers)
+Step 4: Run the App
+streamlit run app.py
+•	Open your browser if it doesn’t open automatically. 
+•	URL will look like: http://localhost:8501 
